@@ -1,0 +1,1132 @@
+body {
+    background-color: white;
+    margin: 0px 0px 0px 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav {
+    height: 50px;
+    width: 100%;
+    background-color: green;
+}
+
+nav {
+    display: flex;
+    padding: 1vw 6vw;
+    position: fixed;
+    background-color: white;
+    width: 90%;
+    height: 30px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.15);
+}
+
+nav .leftnav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+nav .leftnav img {
+    width: 60px;
+    height: 50px;
+    cursor: pointer;
+}
+
+nav .leftnav a {
+    padding-left: 20px;
+    font-size: 12px;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #415859;
+    ;
+}
+
+nav .leftnav :hover {
+    color: #415859;
+    ;
+}
+
+nav .navigation ul {
+    display: flex;
+}
+
+nav .navigation ul li {
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 16px;
+    padding: 5px 10px;
+    list-style: none;
+    font-weight: bold;
+}
+
+nav .navigation ul li a {
+    text-decoration: none;
+    color: #415859;
+    padding-left: 0px;
+}
+
+nav .navigation ul li a:hover {
+    color: #009999;
+    transition: 0.3s ease;
+}
+
+.main {
+    display: flex;
+    width: 100%;
+    padding: 55px 0px 0px 0px;
+}
+
+
+/*left box*/
+
+.left {
+    width: 50%;
+    height: 736px;
+    background-image: url("https://akam.cdn.jdmagicbox.com/images/myjd/TAcrepairthumbnail.png");
+    background-position: center;
+    background-size: cover;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.left .text {
+    font-size: 48px;
+    font-weight: 700px;
+    line-height: 58.51px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    color: white;
+    width: 445px;
+    height: 146px;
+    text-align: center;
+    margin-top: 120px;
+    margin-left: 85px;
+}
+
+.left .search {
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 326x;
+    border-radius: 6px;
+    background-color: white;
+}
+
+.left .search i {
+    color: grey;
+    padding: 0px 10px;
+}
+
+.left .search input {
+    width: 75%;
+    height: 40px;
+    border: none;
+}
+
+.left .links {
+    margin-left: 90px;
+    margin-top: 15px;
+    color: white;
+}
+
+.left .links a {
+    color: white;
+}
+
+.left .links a:hover {
+    color: green;
+}
+
+
+/*right box*/
+
+.right {
+    width: 50%;
+    background-color: white;
+    height: 735px;
+}
+
+.right .text {
+    padding: 20px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    height: 44px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.right .jobs {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 46px;
+    padding-left: 60px;
+    padding-right: 91px;
+    padding-top: 20px;
+    padding-bottom: 46px;
+}
+
+.right .jobs .items {
+    width: 95px;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.right .jobs .itemsh4 {
+    margin-bottom: 5px;
+}
+
+.MagicScroll {
+    width: 600px;
+    height: 170px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    display: flex;
+    overflow-x: scroll;
+    margin-left: 30px;
+    margin-top: 60px;
+}
+
+.MagicScroll img {
+    margin-right: 30px;
+}
+
+.MagicScroll::-webkit-scrollbar {
+    display: none;
+}
+
+
+/* Hide scrollbar for IE, Edge and Firefox */
+
+.MagicScroll {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+
+/*trending sevices*/
+
+.trending {
+    padding-bottom: 20px;
+}
+
+.trending .text {
+    margin-top: 76px;
+    text-align: center;
+    align-items: center;
+}
+
+.trending .box {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 85.99px;
+    text-align: center;
+    width: 80%;
+    margin-top: 90px;
+    margin-left: 65px;
+}
+
+.box .items {
+    background-color: white;
+    border-radius: 10px;
+    height: 110px;
+    width: 160px;
+    box-shadow: 3px 3px 10px;
+}
+
+.box .items img {
+    margin-top: -60px;
+}
+
+
+/*same day service*/
+
+.sameday .text {
+    margin-top: 76px;
+    text-align: center;
+    align-items: center;
+}
+
+.sameday .box {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    text-align: center;
+    width: 80%;
+    margin-top: 120px;
+    margin-left: 65px;
+    grid-gap: 115px;
+}
+
+.box .man {
+    background-color: white;
+    border-radius: 10px;
+    height: 150px;
+    width: 130px;
+    box-shadow: 3px 3px 10px;
+}
+
+.box #pest img {
+    margin-top: -105px;
+}
+
+.sameday .man img {
+    margin-top: -70px;
+}
+
+
+/*safe services*/
+
+.safe {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    margin-top: 100px;
+    background-color: #ececee;
+    border-radius: 30px;
+    margin-left: 250px;
+}
+
+.safe .safel {
+    display: flex;
+    flex-direction: column;
+}
+
+.safe .safel .textop {
+    font-size: 30px;
+    font-weight: 600px;
+    padding-top: 33px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    color: #025B5D;
+}
+
+.safe .safel .textbottom ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+}
+
+
+/*Professional cleaning*/
+
+.cleaning {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.cleaning .text {
+    text-align: center;
+    align-items: center;
+}
+
+.cleaning .boxes {
+    margin-left: 8%;
+    display: grid;
+    margin-top: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 40%;
+    grid-gap: 40px;
+}
+
+.cleaning .boxes .item .card {
+    width: 240px;
+    height: 156px;
+    border-radius: 12px;
+    background-color: #531c1c;
+    margin-bottom: 8px;
+}
+
+.cleaning .boxes .item .heading {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400px;
+}
+
+.cleaning .boxes .item .note {
+    font-size: 14px;
+    font-weight: 400px;
+    margin-top: 5px;
+    text-align: center;
+    color: #757575;
+}
+
+
+/*assured*/
+
+.assured {
+    margin-top: 100px;
+    height: 250px;
+    background-color: #f6f6f6;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.assured .text {
+    font-weight: 700px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.assured .labels {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.assured .labels .items {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.assured .labels .items .text {
+    margin-left: 16px;
+}
+
+.assured .labels .items .text .head {
+    font-weight: 600px;
+    font-size: 25px;
+    text-align: start;
+    margin: 0px;
+    text-align: start;
+}
+
+.assured .labels .items .text .tail {
+    font-weight: 600px;
+    font-size: 15px;
+    margin: 0px;
+    text-align: start;
+    color: #707070;
+}
+
+
+/*home appliances*/
+
+.appliances {
+    padding-bottom: 20px;
+}
+
+.appliances .text {
+    margin-top: 76px;
+    text-align: center;
+    align-items: center;
+}
+
+.appliances .box {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 85.99px;
+    text-align: center;
+    width: 80%;
+    margin-top: 90px;
+    margin-left: 60px;
+}
+
+.appliances .box .items {
+    background-color: white;
+    border-radius: 10px;
+    height: 110px;
+    width: 120px;
+    box-shadow: 3px 3px 10px;
+}
+
+.appliances .box .items img {
+    margin-top: -60px;
+}
+
+
+/*yellow ad*/
+
+.ad {
+    display: flex;
+    width: 100%;
+    height: auto;
+    background-color: #F1BA29;
+    flex-direction: row;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.ad .l {
+    background-color: orange;
+    background-image: none;
+    margin-left: 10%;
+}
+
+.ad .r {
+    width: 500px;
+    margin-left: 100px;
+    height: 200px;
+    text-align: center;
+    padding-top: 40px;
+    line-height: 0.5;
+    font-weight: 700px;
+    font-size: 30px;
+    font-family: 'Verdana';
+}
+
+.ad .r .button {
+    border-radius: 120px;
+    font-family: 'Verdana';
+    color: #A90000;
+    padding: 10px;
+    background: #F1BA29;
+    font-weight: 800px;
+}
+
+
+/*sliders*/
+
+
+/*why people chosen us*/
+
+.why {
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 5%;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: stretch;
+    background-color: #E5E4E9;
+}
+
+.why .text {
+    width: 40%;
+    margin: 10px;
+    padding: 30px;
+    background-color: white;
+}
+
+.why .text h4 {
+    font-size: 20px;
+    color: #017F82;
+    margin-top: px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+}
+
+.why .text ul {
+    line-height: 20px;
+}
+
+
+/*what our customers say*/
+
+.what {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.what .text {
+    text-align: center;
+    align-items: center;
+}
+
+.what .boxes {
+    margin-left: 8%;
+    display: grid;
+    margin-top: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 40%;
+    grid-gap: 40px;
+}
+
+.what .boxes .item .card {
+    width: 240px;
+    height: 156px;
+    background-color: white;
+    box-shadow: 1px 1px 10px;
+}
+
+.what .boxes .item .card p {
+    font-size: 12px;
+    padding: 18px;
+    word-spacing: 2px;
+    line-height: 16px;
+}
+
+.what .boxes .item .card h3 {
+    margin-left: 18px;
+    font-size: 14px;
+    color: #025B5D;
+}
+
+.what .boxes .item .heading {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400px;
+}
+
+.what .boxes .item .note {
+    font-size: 14px;
+    font-weight: 400px;
+    margin-top: 5px;
+    text-align: center;
+    color: #757575;
+}
+
+
+/*refer and earn*/
+
+.refer {
+    display: flex;
+    flex-direction: row;
+    margin-left: 5%;
+    margin-right: 5%;
+    grid-gap: 20px;
+    margin-top: 100px;
+    background-color: #E5E4E9;
+    padding-left: 80px;
+    height: 300px;
+}
+
+.refer .text {
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 280px;
+    color: #025B5D;
+    padding: 20px;
+}
+
+.refer .text input {
+    width: 100%;
+    height: 40px;
+    box-shadow: 2px 2px 30px;
+    border: 0px;
+    border-radius: 6px;
+}
+
+.refer .text .btns {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.refer .text .btns div {
+    margin: 10px;
+}
+
+.refer .image1 {
+    margin-right: 25px;
+    margin-top: 50px;
+}
+
+.refer .image2 {
+    margin-right: 50px;
+    margin-top: 150px;
+}
+
+
+/*logo part*/
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    margin-top: 80px;
+    margin-left: 25%;
+}
+
+.logo .text {
+    text-align: center;
+    font-size: 36px;
+    padding: 33px;
+    font-weight: 600px;
+}
+
+
+/*footer*/
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 14px;
+    background-color: #343434;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #025B5D;
+}
+
+.footer .start {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin-top: 40px;
+    justify-content: start;
+    align-items: center;
+    margin-left: 10%;
+}
+
+.footer .start .rel {
+    padding-right: 120px;
+}
+
+.footer .locations {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin-top: 30px;
+    justify-content: start;
+    align-items: center;
+    margin-left: 10%;
+}
+
+.footer .locations .ll {
+    padding-right: 70px;
+}
+
+.footer .about {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin-top: 30px;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10%;
+}
+
+.footer .about .text {
+    margin: 0px 48px;
+}
+
+.footer .last {
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    margin-top: 50px;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 35%;
+}
+
+.footer .last i {
+    font-size: 35px;
+}
+
+.footer .pvt {
+    font-size: 12px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.footer {
+    height: 400px;
+    background-color: #343434;
+    ;
+}
+
+@media screen and (max-width: 980px) {
+    body {
+        background-color: white;
+        width: 100%;
+    }
+    /*nav bar*/
+    nav {
+        width: auto;
+        height: 40px;
+        position: inherit;
+        padding: 0px;
+    }
+    nav .leftnav img {
+        width: 0px;
+        height: 0px;
+        cursor: pointer;
+        margin: 0px;
+        padding: 0px;
+    }
+    nav .leftnav {
+        width: 100%;
+        background-color: white;
+        height: 60px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    nav .leftnav a {
+        padding-left: 20px;
+        font-size: 26px;
+        margin-top: 10px;
+        text-decoration: none;
+        color: #415859;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+    nav .navigation ul li {
+        list-style: none;
+        font-weight: none;
+    }
+    nav .navigation {
+        width: 0px;
+        height: 0px;
+        font-size: 0px;
+    }
+    nav .navigation ul {
+        width: 0px;
+        height: 0px;
+    }
+    nav .navigation ul li {
+        font-size: 0px;
+        width: 0px;
+        text-decoration: none;
+        margin: 0px;
+        padding: 0px;
+        height: 0px;
+        border: 0px solid white;
+        border-radius: 0px;
+    }
+    nav .navigation ul li .download {
+        color: red;
+        size: 0px;
+        border: 0px;
+    }
+    .main {
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+    }
+    .left {
+        width: 110%;
+        height: auto;
+        background-image: none;
+        display: flex;
+        padding: 0px;
+        margin: 0px;
+        background-color: grey;
+        flex-direction: column;
+    }
+    .left .text {
+        height: 0px;
+        margin: 0px;
+        font-size: 0px;
+    }
+    .left .search {
+        width: 90%;
+        margin-left: 0px;
+        height: auto;
+        border-radius: 6px;
+        border: 2px solid black;
+        align-items: center;
+        justify-content: center;
+        margin-left: 5%;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        background-color: white;
+    }
+    .left .search i {
+        color: grey;
+        padding: 0px 10px;
+        font-size: 50px;
+        padding-top: 15px;
+        padding-left: 30px;
+    }
+    .left .search input {
+        width: 75%;
+        height: 40px;
+        border: none;
+        font-size: 40px;
+        padding-left: 50px;
+    }
+    .left .links {
+        font-size: 0px;
+        margin-left: 90px;
+        margin-top: 0px;
+    }
+    .right {
+        width: 100%;
+        margin-top: 0px;
+        height: auto;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .right .jobs {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 50px;
+        padding-left: 130px;
+        padding-right: 91px;
+        padding-top: 100px;
+        padding-bottom: 46px;
+        scroll-margin-top: 700px;
+    }
+    .right .text {
+        font-size: 0px;
+    }
+    .right .MagicScroll {
+        width: 110%;
+        margin: 0px;
+        padding: 0px;
+        height: auto;
+        margin-top: 40px;
+    }
+    .right .MagicScroll img {
+        height: 250px;
+        width: 45%;
+    }
+    /*trending services*/
+    .trending {
+        padding-bottom: 20px;
+        background-color: white;
+        width: 110%;
+    }
+    .trending .box {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 100px;
+        justify-content: space-evenly;
+        text-align: center;
+        background-color: white;
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 150px;
+        font-size: 50px;
+    }
+    .box .items {
+        background-color: white;
+        border-radius: 10px;
+        height: 370px;
+        width: 400px;
+        box-shadow: 3px 3px 10px;
+    }
+    .box .items img {
+        margin-top: -60px;
+        height: 300px;
+        width: 300px;
+    }
+    /*same day services*/
+    .sameday .box {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        text-align: center;
+        width: 90%;
+        margin-top: 120px;
+        margin-left: 65px;
+        grid-gap: 120px;
+        font-size: 40px;
+    }
+    .box .man {
+        background-color: white;
+        border-radius: 10px;
+        height: 300px;
+        width: 200px;
+        box-shadow: 3px 3px 10px;
+    }
+    .sameday .man img {
+        margin-top: -70px;
+        height: 180px;
+        width: 180px;
+    }
+    /*100% safe free*/
+    .safe {
+        width: 100%;
+        margin-top: 100px;
+        background-color: #ececee;
+        border-radius: 30px;
+        margin-left: 5%;
+        font-size: 30px;
+    }
+    .safe .safel {
+        padding: 0px;
+        margin: 0px;
+    }
+    .safe .safel .textop {
+        font-size: 60px;
+        font-weight: 600px;
+        padding-top: 20px;
+        padding-left: 20px;
+        color: #025B5D;
+    }
+    ul {
+        list-style-type: none;
+        margin-block-start: 0px;
+        margin-block-end: 0px;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        padding-inline-start: 0px;
+        border: 0px;
+        border-radius: 0px;
+    }
+    .safe .safer img {
+        height: 300px;
+        width: 450px;
+    }
+    /*professional cleaning*/
+    .cleaning {
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+        width: 110%;
+        background-color: white;
+    }
+    .cleaning .text p {
+        font-size: 400px;
+    }
+    .cleaning .boxes {
+        width: 90%;
+        margin-left: 5%;
+        display: grid;
+        margin-top: 20px;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 40px;
+        display: flex;
+        overflow-x: scroll;
+    }
+    .cleaning .boxes .item .card {
+        width: 500px;
+        height: 300px;
+        border-radius: 12px;
+        background-color: #531c1c;
+        margin-bottom: 8px;
+    }
+    /*home appliances*/
+    .appliances {
+        padding-bottom: 20px;
+    }
+    .appliances .box {
+        width: 100%;
+        height: 600px;
+        margin-left: 5%;
+        display: grid;
+        grid-gap: 0px;
+        grid-row-gap: 90px;
+        background-color: white;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .appliances .box .items {
+        background-color: white;
+        border-radius: 10px;
+        height: 250px;
+        width: 250px;
+        box-shadow: 3px 3px 10px;
+    }
+    .appliances .box .items img {
+        margin-top: -60px;
+        height: 200px;
+        width: 200px;
+    }
+    /*yellow ad*/
+    .ad {
+        display: flex;
+        width: 110%;
+        height: auto;
+        background-color: #F1BA29;
+        flex-direction: row;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    .ad .r {
+        height: 200px;
+        margin-left: -50px;
+        text-align: center;
+        padding-top: 40px;
+        line-height: 0.8;
+        font-weight: 700px;
+        font-size: 30px;
+        font-family: 'Verdana';
+    }
+    .ad .r .button {
+        border-radius: 120px;
+        font-family: 'Verdana';
+        color: #A90000;
+        padding: 10px;
+        font-size: 30px;
+        background: #F1BA29;
+        font-weight: 900px;
+        border: 3px solid red;
+    }
+    /*why*/
+    .why {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-left: 5%;
+        margin-top: 100px;
+        justify-content: center;
+        align-items: stretch;
+        background-color: #E5E4E9;
+    }
+    /*what our customer says*/
+    .what .boxes {
+        display: grid;
+        margin-top: 50px;
+        grid-template-columns: repeat(4, 1fr);
+        width: 100%;
+        grid-gap: 40px;
+        margin-left: 5%;
+        display: flex;
+        overflow-x: scroll;
+        margin-left: 30px;
+        margin-top: 60px;
+    }
+    /*assured*/
+    .assured {
+        width: 100%;
+        background-color: white;
+        height: 450px;
+    }
+    .assured .labels {
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+        justify-content: start;
+        align-items: start;
+        width: 80%;
+        margin-left: 25%;
+    }
+    .assured .labels .items {
+        margin: 10px;
+        justify-content: start;
+        align-items: start;
+    }
+    /*footer*/
+    .footer {
+        height: 0px;
+        background-color: #343434;
+        font-size: 30px;
+        color: white;
+        width: 100%;
+    }
+    .footer .last a i {
+        font-size: 0px;
+        color: white;
+    }
+    .footer .last .pvt {
+        font-size: 0px;
+    }
+    .footer .about {
+        width: 0px;
+        font-size: 0px;
+    }
+    .footer a {
+        font-size: 0px;
+    }
+}
+
+
+}
+
+}
